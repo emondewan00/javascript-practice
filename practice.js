@@ -182,3 +182,18 @@ const myString="i want to be a programmer";
 // for (const x of map){
 //   console.log(x)
 // }
+
+
+
+const x="hallo";
+try{
+   if(x=="")throw " x is empty";
+   if(isNaN(x)) throw { 
+      message:"its not a number self create error",
+      name:"NaN"
+};
+   if( x <5 )throw " x is more then 5 or 5 ";
+   if ( x>12) throw " x is more then 12";
+}catch(error){
+   console.log(error.message, error.name)
+}
