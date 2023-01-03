@@ -197,3 +197,7 @@ try{
 }catch(error){
    console.log(error.message, error.name)
 }
+
+
+
+const ternary= x=="hallo" ? console.log("true"):console.log("false");
