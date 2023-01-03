@@ -201,4 +201,3 @@ try{
 
 
 const ternary= x=="hallo" ? console.log("true"):console.log("false");
- const git = "hallo commit";
