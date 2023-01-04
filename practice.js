@@ -201,3 +201,17 @@ try{
 
 
 const ternary= x=="hallo" ? console.log("true"):console.log("false");
+
+
+
+
+function xx(){
+   var x= "var veriable";
+}
+console.log("var",x)
+function y(){
+   let x ="let veriable";
+}
+function z(){
+   const x = "const veriable";
+}
