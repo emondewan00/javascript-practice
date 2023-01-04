@@ -184,7 +184,6 @@ const myString="i want to be a programmer";
 // }
 
 
-
 const x="hallo";
 try{
    if(x=="")throw " x is empty";
@@ -215,3 +214,14 @@ function y(){
 function z(){
    const x = "const veriable";
 }
+
+
+const person={
+   fname:"emon",
+   lname:"Dewan",
+   age:19,
+   fullName:function(){
+      return this.fname+" "+this.lname;
+   }
+}
+console.log(person.fullName());
