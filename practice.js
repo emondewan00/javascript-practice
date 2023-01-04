@@ -185,6 +185,11 @@ const myString="i want to be a programmer";
 
 
 const x="hallo";
+
+
+const xs= "hallo";
+console.log(xs.constructor)
+
 try{
    if(x=="")throw " x is empty";
    if(isNaN(x)) throw { 
@@ -199,7 +204,7 @@ try{
 
 
 
-const ternary= x=="hallo" ? console.log("true"):console.log("false");
+
 
 
 
@@ -220,8 +225,36 @@ const person={
    fname:"emon",
    lname:"Dewan",
    age:19,
-   fullName:function(){
+   fullName:()=>{
       return this.fname+" "+this.lname;
    }
 }
-console.log(person.fullName());
+const john={
+   fname:"john",
+   lname:"Deo",
+   age:26
+}
+
+
+const consol=person.fullName.call(john);
+console.log(consol);
+
+
+class Car {
+   constructor(name, year) {
+     this.name = name;
+     this.year = year;
+   }
+ }
+
+const toyota =new Car("Toyota",2018);
+console.log(toyota);
+const bmw =new Car ("BMW",2020);
+console.log(bmw);
+
+
+const obj={
+   name:"Emon",
+   lname:"Dewan",
+   age:19
+}
