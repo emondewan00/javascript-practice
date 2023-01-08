@@ -235,6 +235,11 @@ const john={
    age:26
 }
 
+john.country=function(){
+   return "hallo";
+};
+console.log(john.country())
+
 
 const consol=person.fullName.call(john);
 console.log(consol);
@@ -258,3 +263,4 @@ const obj={
    lname:"Dewan",
    age:19
 }
+
